@@ -1,6 +1,6 @@
 # Dj Tasks
 
-**Dj Tasks** is a script to automate some tasks. These tasks at the moment are:
+**Dj Tasks** is a script to automate some tasks in Django project. These tasks at the moment are:
 
 * Create `.env` file that distributes project environment variables.
 * Creates the apps in a folder called `apps`.
