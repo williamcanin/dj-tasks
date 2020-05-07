@@ -19,13 +19,13 @@ $ chmod +x bin/dj-tasks
 
 ## Usage
 
-1 - Creating ".env" file:
+1 - Creating `.env` file:
 
 ```shell
 $ ./bin/dj-tasks --env
 ```
 
-2 - Creating an app in Django that will be stored in the "apps" folder:
+2 - Creating an app in Django that will be stored in the `apps` folder:
 
 ```shell
 $ ./bin/dj-tasks --app <APP NAME>
