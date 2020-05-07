@@ -15,7 +15,7 @@ $ rm -rf bin/.git
 $ chmod +x bin/dj-tasks
 ```
 
-> NOTE: You can also place the script in the contrib folder if you have stored others in the folder.
+> NOTE: You can also place the script in the **contrib** folder if you have stored others in the folder.
 
 ## Usage
 
