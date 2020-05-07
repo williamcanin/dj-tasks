@@ -7,10 +7,18 @@ from os.path import isfile, isdir, join
 from textwrap import dedent
 from pathlib import Path
 from subprocess import check_call, CalledProcessError
-from django.utils.crypto import get_random_string
 
 
 class Env:
+    try:
+        from django.utils.crypto import get_random_string
+    except ImportError:
+        print(
+            ">>> It was not possible to import the Django module. "
+            "Make sure that Django is installed."
+        )
+        exit(1)
+
     PATTERN = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)"
 
     CONFIG_STRING = dedent(
